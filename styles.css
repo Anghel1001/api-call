@@ -10,7 +10,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  background: linear-gradient(135deg, #ffd1dc, #ffb7b2);
+  background-size: cover;
 }
 
 .container {
@@ -39,7 +40,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
-  background-color: #f9f9ff;
+  background-color: #fff5fa;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -55,6 +56,10 @@ table th {
   background-color: #ff6f61;
   color: white;
   font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffeef2;
 }
 
 table tr:hover td {
